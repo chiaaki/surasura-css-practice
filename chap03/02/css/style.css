@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 /* 全体 */
+* {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "MS　Pゴシック", "MS PGothic", sans-serif;
+}
 body {
 	margin: 0;
 	padding: 0;
@@ -31,6 +34,9 @@ a:hover {
 	float: right;
 	margin: 40px 40px 0 0;
 	text-align: right;
+}
+.header_tel {
+	font-size: 36px;
 }
 #header_copy {
 	margin: 110px 0 0 0;
