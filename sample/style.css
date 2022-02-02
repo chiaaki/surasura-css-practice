@@ -27,6 +27,8 @@ a:hover {
 	overflow: hidden;
 	height: 280px;
 	background-color: #dfdcdb;
+	background-image: url(./images/header.jpg);
+	background-repeat: no-repeat;
 }
 #logo {
 	float: left;
