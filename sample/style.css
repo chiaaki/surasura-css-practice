@@ -95,11 +95,22 @@ a:hover {
 .content h1 {
     font-size: 24px;
     color: #53280b;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0.5em;
+	margin-left: 0;
+	background-image: url(./images/h1-bg.png);
+	background-repeat: no-repeat;
+	padding-top: 30px;
 }
 .content h2 {
     font-size: 22px;
     color: #53280b;
     font-weight: normal;
+	margin-top: 2em;
+	margin-right: 0;
+	margin-bottom: 0.5em;
+	margin-left: 0;
 }
 .content p {
     line-height: 180%;
@@ -127,10 +138,15 @@ a:hover {
 }
 .foodmenu ul li {
 	padding: 15px 20px;
+	list-style-type: none;
+	border-top: 1px solid #ffffff;
 }
 .foodmenu ul li a {
 	color: #53280b;
 	text-decoration: none;
+}
+.foodmenu ul li a:hover {
+	color: #895430;
 }
 
 /* フッター */
@@ -139,6 +155,11 @@ a:hover {
 	padding: 10px 20px 50px 20px;
 	color: #fff;
 	background-color: #5e5653;
+	background-image: url(./images/footer.jpg);
+	background-repeat: repeat-x;
+}
+.copyright {
+	text-align: right;
 }
 .footer_sitemap {
 	margin: 20px 0 0 0;
