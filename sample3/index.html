@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <title>第6章　フロート</title>
     <style>
-        p {
-            width: 400px;
+        .wrapper {
+            position: relative;
+            border: 1px solid #72aede;
+            width: 300px;
+            height: 300px;
         }
-        img {
-            float: left;
-        }
-        .clear {
-            clear: both;
+        .img {
+            position: absolute;
+            top: 80px;
+            left: 120px;
         }
     </style>
 </head>
 <body>
-    <p><img src="./images/home-news-1.jpg" alt="">ああああああああああ</p>
-    <p class="clear">いいいいいいいいいいいいいいい</p>
+    <div class="wrapper">
+        <div class="img"><img src="./images/home-news-1.jpg" alt=""></div>
+    </div>
 </body>
 </html>
