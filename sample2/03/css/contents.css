@@ -12,3 +12,32 @@
 	border-radius: 20px;
 	background-color: #f6f4f2;
 }
+
+/* テーブル */
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 30px;
+}
+table td,
+table th {
+	border: 1px solid #c3bab2;
+	padding: 15px;
+	vertical-align: top;
+}
+table tr td:first-child,
+table tr td:last-child {
+	white-space: nowrap;
+}
+table tr td:first-child {
+	font-weight: bold;
+}
+table tr td:last-child {
+	text-align: right;
+}
+table th {
+	background-image: url(../images/table-bg.jpg);
+}
+table tr:nth-child(odd) {
+	background-color: #f6f4f2;
+}
