@@ -1,13 +1,54 @@
 @charset "UTF-8";
 
 /* デフォルトのマージンをクリア */
-
+p, h1, h2, ul {
+    margin: 0;
+}
 
 /* 全体 */
-
+* {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", Osaka, "MS Pゴシック", "MS PGothic", sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
 
 /* ヘッダー */
-
+.wrapper-header {
+    background-image: url(../images/header-bg.jpg);
+    background-repeat: repeat-x;
+}
+.header {
+    margin: 0 auto 0 auto;
+    width: 980px;
+    height: 190px;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+}
+.contact {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    padding: 10px 30px;
+    background-color: #f38d1f;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+    color: #f9efdb;
+}
+.contact h2 {
+    font-size: 14px;
+    margin: 0 0 5px 0;
+}
+.contact p {
+    font-family: 'Supermercado One', cursive, sans-serif;
+    font-size: 40px;
+}
 
 /* ナビゲーション */
 
