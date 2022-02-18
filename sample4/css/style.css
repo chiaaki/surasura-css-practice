@@ -98,7 +98,6 @@ ul.nav {
 .main {
     margin: 0 auto 0 auto;
     width: 980px;
-    outline: 1px solid blue;
 }
 .main::after {
     content: " ";
@@ -112,7 +111,6 @@ ul.nav {
     float: left;
     width: 610px;
     padding: 40px 20px;
-    outline: 1px solid red;
 }
 .news h2 {
     margin: 0 0 10px 0;
@@ -135,10 +133,32 @@ ul.nav {
     float: left;
     width: 290px;
     padding: 40px 20px;
-    outline: 1px solid red;
+}
+.banners div {
+    font-size: 0;
+    margin: 0 0 15px 0;
+}
+.banners a:hover img {
+    opacity: 0.5;
 }
 
 /* フッター */
 .footer {
+    margin: 0 auto;
+    width: 980px;
+    padding: 20px;
+    border-top: 3px solid #e8dbcf;
+    color: #927f67;
+}
+.footer-nav a {
+    color: #927f67;
+    text-decoration: none;
+}
+.footer-nav a:hover {
+    color: #baa387;
+}
+.copyright {
+    margin-top: 10px;
+    text-align: right;
 }
 
