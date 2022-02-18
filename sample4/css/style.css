@@ -14,6 +14,12 @@ body {
     padding: 0;
     background-color: #ffffff;
 }
+a {
+    color: #ff8888;
+}
+a:hover {
+    color: #ffa8a8;
+}
 
 /* ヘッダー */
 .wrapper-header {
@@ -87,18 +93,52 @@ ul.nav {
     width: 980px;
     font-size: 0;
 }
+
 /* メイン */
 .main {
     margin: 0 auto 0 auto;
     width: 980px;
     outline: 1px solid blue;
 }
+.main::after {
+    content: " ";
+    display: block;
+    font-size: 0;
+    clear: both;
+}
 
 /* お知らせ */
-
+.news {
+    float: left;
+    width: 610px;
+    padding: 40px 20px;
+    outline: 1px solid red;
+}
+.news h2 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #695c4b;
+}
+.news div {
+    padding: 10px;
+    border-top: 1px dashed #e8dbcf;
+    overflow: hidden;
+}
+.news div img {
+    float: left;
+    margin: 0 10px 0 0;
+    border-radius: 50%;
+}
 
 /* バナー（サイドバー） */
-
+.banners {
+    float: left;
+    width: 290px;
+    padding: 40px 20px;
+    outline: 1px solid red;
+}
 
 /* フッター */
+.footer {
+}
 
